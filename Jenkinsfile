@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-               git credentialsId: 'git_credentials', url: 'https://github.com/safaa-09/ATp-Jenkins.git'
+               git credentialsId: 'git_credentials', url: 'https://github.com/hzmagm/springbootprojet.git'
             }
         }
         
